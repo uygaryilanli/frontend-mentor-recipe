@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(238, 231, 222);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    margin: 7% 10%;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.food-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.food-img > img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.first-list > h2{
+    color: rgb(169, 61, 190);
+    margin-left: 3%;
+}
+
+.first-list > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 2%;
+}
+
+.first-list {
+    background-color: rgb(169, 61, 190, 0.1);
+    border-radius: 20px;
+}
+
+.first-list > ul > li::marker {
+    color: rgb(169, 61, 190);
+}
+
+.second-list > h2{
+    color: saddlebrown;
+}
+
+.second-list > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.second-list > ul > li::marker {
+    color: saddlebrown;
+}
+
+.third-list > h2 {
+    color: saddlebrown;
+}
+
+.third-list > ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.third-list > ol > li {
+    padding-left: 10px;
+}
+
+.third-list > ol > li::marker {
+    color: saddlebrown;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+
+.table > h2 {
+    color: saddlebrown;
+}
+
+.value {
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .food-img {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .food-img > img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .main-page {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .contents {
+        margin: 20px;
+    }
+}
