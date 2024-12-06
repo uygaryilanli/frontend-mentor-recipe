@@ -1,4 +1,4 @@
-# frontend-mentor-recipe
+# frontend-mentor-recipe #finished-projects
 A responsive recipe page built as part of a Frontend Mentor challenge.
 
 Purpose of the Project:
